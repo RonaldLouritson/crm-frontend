@@ -1,5 +1,5 @@
-import React from 'react'
-import { Container,Row,Col,Form, Button } from 'react-bootstrap'
+import React from 'react';
+import { Container,Row,Col,Form, Button } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
 export const ResetPassword = ({handleOnChange, handleOnResetSubmit, 
