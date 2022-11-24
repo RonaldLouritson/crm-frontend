@@ -2,10 +2,16 @@ import React from 'react';
 import { Container, Row, Col, Button} from 'react-bootstrap';
 import { StudentTable } from '../../components/students-table/studenttable.comp';
 import students from '../../assets/data/dummy-students.json';
+import { PageBreadCrumb } from '../../components/breadcrumb/breadcrumb.comp';
 
 export const Dashboard = () => {
   return (
     <Container>
+      <Row>
+        <Col>
+        <PageBreadCrumb page='Dashboard' />
+        </Col>
+      </Row>
       <Row>
         <Col className='text-center mt-5 mb-2'>
             <Button variant='info' style={{fontSize:'2rem',
