@@ -1,0 +1,68 @@
+[
+    {
+       "id": 1,
+       "name": "Rajinikanth",
+       "gender": "male",
+       "age": "70",
+       "dob": "12/12/1212",
+       "email": "rajini@rajini.com",
+       "pastportno": "111111111111",
+       "country": "india",
+       "address": "tamil nadu"
+    },
+    {
+        "id": 2,
+        "name": "Rajinikanth",
+        "gender": "male",
+        "age": "70",
+        "dob": "12/12/1212",
+        "email": "rajini@rajini.com",
+        "pastportno": "111111111111",
+        "country": "india",
+        "address": "tamil nadu"
+     },
+     {
+        "id": 3,
+        "name": "Rajinikanth",
+        "gender": "male",
+        "age": "70",
+        "dob": "12/12/1212",
+        "email": "rajini@rajini.com",
+        "pastportno": "111111111111",
+        "country": "india",
+        "address": "tamil nadu"
+     },
+     {
+        "id": 4,
+        "name": "Rajinikanth",
+        "gender": "male",
+        "age": "70",
+        "dob": "12/12/1212",
+        "email": "rajini@rajini.com",
+        "pastportno": "111111111111",
+        "country": "india",
+        "address": "tamil nadu"
+     },
+     {
+        "id": 5,
+        "name": "Rajinikanth",
+        "gender": "male",
+        "age": "70",
+        "dob": "12/12/1212",
+        "email": "rajini@rajini.com",
+        "pastportno": "111111111111",
+        "country": "india",
+        "address": "tamil nadu"
+     },
+     {
+        "id": 6,
+        "name": "Rajinikanth",
+        "gender": "male",
+        "age": "70",
+        "dob": "12/12/1212",
+        "email": "rajini@rajini.com",
+        "pastportno": "111111111111",
+        "country": "india",
+        "address": "tamil nadu"
+     }
+]
