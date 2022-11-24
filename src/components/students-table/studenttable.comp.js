@@ -18,7 +18,7 @@ export const StudentTable = ({students}) => {
             </tr>
         </thead>
         <tbody>
-            {students.lenght && students.map((row) => (
+            {students.length && students.map((row) => (
             <tr key={row.id}>
                 <td>{row.id}</td>
                 <td>{row.name}</td>

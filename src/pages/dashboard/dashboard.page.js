@@ -26,6 +26,7 @@ export const Dashboard = () => {
       <Row>
         <Col className='recent-student'>
             <StudentTable students={students}/>
+            {/* {JSON.stringify(students)} */}
         </Col>
       </Row>
     </Container>
