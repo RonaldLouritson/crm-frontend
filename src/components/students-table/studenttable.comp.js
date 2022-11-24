@@ -18,7 +18,8 @@ export const StudentTable = ({students}) => {
             </tr>
         </thead>
         <tbody>
-            {students.length && students.map((row) => (
+        {/* {students.length && students.map((row, i) => ( */}
+            {students.length ? students.map((row) => (
             <tr key={row.id}>
                 <td>{row.id}</td>
                 <td>{row.name}</td>
@@ -30,7 +31,19 @@ export const StudentTable = ({students}) => {
                 <td>{row.country}</td>
                 <td>{row.address}</td>
             </tr>
-            ))}
+            )):
+            <tr>
+                {/* <td></td>
+                <td></td>
+                <td></td>
+                <td></td> */}
+                <td colSpan='9' className='text-center'>No Student Data</td>
+                {/* <td></td>               
+                <td></td>
+                <td></td>
+                <td></td> */}
+            </tr>
+        }
 
             {/* <tr>
                 <td>1</td>
